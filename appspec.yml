@@ -4,7 +4,7 @@ files:
   - source: /index.html
     destination: /var/www/html/
 hooks:
- - BeforeInstall:
+  BeforeInstall:
      - location: script/install_software_start_service
        timeout: 300
        runas: root
