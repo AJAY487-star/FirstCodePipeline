@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/
 hooks:
  - BeforeInstall:
-     - location: scripts/install_software_start_service
+     - location: script/install_software_start_service
        timeout: 300
        runas: root
